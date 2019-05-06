@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3050497E1935F7880077ACC4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3050497D1935F7880077ACC4 /* Cocoa.framework */; };
+		305049881935F7880077ACC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 305049861935F7880077ACC4 /* InfoPlist.strings */; };
+		3050498A1935F7880077ACC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 305049891935F7880077ACC4 /* main.m */; };
+		3050498E1935F7880077ACC4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3050498C1935F7880077ACC4 /* Credits.rtf */; };
+		305049911935F7880077ACC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 305049901935F7880077ACC4 /* AppDelegate.m */; };
+		305049941935F7880077ACC4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 305049921935F7880077ACC4 /* MainMenu.xib */; };
+		305049961935F7880077ACC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305049951935F7880077ACC4 /* Images.xcassets */; };
+		3050499D1935F7890077ACC4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3050499C1935F7890077ACC4 /* XCTest.framework */; };
+		3050499E1935F7890077ACC4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3050497D1935F7880077ACC4 /* Cocoa.framework */; };
+		305049A61935F7890077ACC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 305049A41935F7890077ACC4 /* InfoPlist.strings */; };
+		305049A81935F7890077ACC4 /* UartAssistantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 305049A71935F7890077ACC4 /* UartAssistantTests.m */; };
+		309167EA19A5967800982F2B /* SelectPortButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 309167E919A5967800982F2B /* SelectPortButtonView.m */; };
+		309167EF19A5FCC900982F2B /* uart.icns in Resources */ = {isa = PBXBuildFile; fileRef = 309167EE19A5FCC900982F2B /* uart.icns */; };
+		309167F119A5FCE100982F2B /* uart.icns in Resources */ = {isa = PBXBuildFile; fileRef = 309167F019A5FCE100982F2B /* uart.icns */; };
+		30BC0B5919A1EB08002D1FE8 /* Uart.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BC0B5819A1EB08002D1FE8 /* Uart.m */; };
+		30C2E5FA19A2F3950056D612 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C2E5F819A2F3950056D612 /* MainWindow.m */; };
+		30C2E5FB19A2F3950056D612 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30C2E5F919A2F3950056D612 /* MainWindow.xib */; };
+		BE44CFFA48B1D612AC9F0018 /* CharChangeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BE44CBEFBC996E64F362E25C /* CharChangeUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3050499F1935F7890077ACC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 305049721935F7880077ACC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 305049791935F7880077ACC4;
+			remoteInfo = UartAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3050497A1935F7880077ACC4 /* UartAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UartAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3050497D1935F7880077ACC4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		305049801935F7880077ACC4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		305049811935F7880077ACC4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		305049821935F7880077ACC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		305049851935F7880077ACC4 /* UartAssistant-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UartAssistant-Info.plist"; sourceTree = "<group>"; };
+		305049871935F7880077ACC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		305049891935F7880077ACC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3050498B1935F7880077ACC4 /* UartAssistant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UartAssistant-Prefix.pch"; sourceTree = "<group>"; };
+		3050498D1935F7880077ACC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3050498F1935F7880077ACC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		305049901935F7880077ACC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		305049931935F7880077ACC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		305049951935F7880077ACC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3050499B1935F7890077ACC4 /* UartAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UartAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3050499C1935F7890077ACC4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		305049A31935F7890077ACC4 /* UartAssistantTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UartAssistantTests-Info.plist"; sourceTree = "<group>"; };
+		305049A51935F7890077ACC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		305049A71935F7890077ACC4 /* UartAssistantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UartAssistantTests.m; sourceTree = "<group>"; };
+		309167E819A5967800982F2B /* SelectPortButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPortButtonView.h; sourceTree = "<group>"; };
+		309167E919A5967800982F2B /* SelectPortButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPortButtonView.m; sourceTree = "<group>"; };
+		309167EE19A5FCC900982F2B /* uart.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = uart.icns; sourceTree = "<group>"; };
+		309167F019A5FCE100982F2B /* uart.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = uart.icns; sourceTree = "<group>"; };
+		30BC0B5719A1EB08002D1FE8 /* Uart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uart.h; sourceTree = "<group>"; };
+		30BC0B5819A1EB08002D1FE8 /* Uart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Uart.m; sourceTree = "<group>"; };
+		30C2E5F719A2F3950056D612 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		30C2E5F819A2F3950056D612 /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
+		30C2E5F919A2F3950056D612 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		BE44CBEFBC996E64F362E25C /* CharChangeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharChangeUtil.m; sourceTree = "<group>"; };
+		BE44CE8A88D0F2F7F8B2FAC5 /* CharChangeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharChangeUtil.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		305049771935F7880077ACC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3050497E1935F7880077ACC4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305049981935F7890077ACC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3050499E1935F7890077ACC4 /* Cocoa.framework in Frameworks */,
+				3050499D1935F7890077ACC4 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		305049711935F7880077ACC4 = {
+			isa = PBXGroup;
+			children = (
+				309167F019A5FCE100982F2B /* uart.icns */,
+				305049831935F7880077ACC4 /* UartAssistant */,
+				305049A11935F7890077ACC4 /* UartAssistantTests */,
+				3050497C1935F7880077ACC4 /* Frameworks */,
+				3050497B1935F7880077ACC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3050497B1935F7880077ACC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3050497A1935F7880077ACC4 /* UartAssistant.app */,
+				3050499B1935F7890077ACC4 /* UartAssistantTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3050497C1935F7880077ACC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3050497D1935F7880077ACC4 /* Cocoa.framework */,
+				3050499C1935F7890077ACC4 /* XCTest.framework */,
+				3050497F1935F7880077ACC4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3050497F1935F7880077ACC4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				305049801935F7880077ACC4 /* AppKit.framework */,
+				305049811935F7880077ACC4 /* CoreData.framework */,
+				305049821935F7880077ACC4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		305049831935F7880077ACC4 /* UartAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				309167EE19A5FCC900982F2B /* uart.icns */,
+				30BC0B5719A1EB08002D1FE8 /* Uart.h */,
+				30BC0B5819A1EB08002D1FE8 /* Uart.m */,
+				3050498F1935F7880077ACC4 /* AppDelegate.h */,
+				305049901935F7880077ACC4 /* AppDelegate.m */,
+				305049921935F7880077ACC4 /* MainMenu.xib */,
+				305049951935F7880077ACC4 /* Images.xcassets */,
+				305049841935F7880077ACC4 /* Supporting Files */,
+				30C2E5F719A2F3950056D612 /* MainWindow.h */,
+				30C2E5F819A2F3950056D612 /* MainWindow.m */,
+				30C2E5F919A2F3950056D612 /* MainWindow.xib */,
+				BE44CBEFBC996E64F362E25C /* CharChangeUtil.m */,
+				BE44CE8A88D0F2F7F8B2FAC5 /* CharChangeUtil.h */,
+				309167E819A5967800982F2B /* SelectPortButtonView.h */,
+				309167E919A5967800982F2B /* SelectPortButtonView.m */,
+			);
+			path = UartAssistant;
+			sourceTree = "<group>";
+		};
+		305049841935F7880077ACC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				305049851935F7880077ACC4 /* UartAssistant-Info.plist */,
+				305049861935F7880077ACC4 /* InfoPlist.strings */,
+				305049891935F7880077ACC4 /* main.m */,
+				3050498B1935F7880077ACC4 /* UartAssistant-Prefix.pch */,
+				3050498C1935F7880077ACC4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		305049A11935F7890077ACC4 /* UartAssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				305049A71935F7890077ACC4 /* UartAssistantTests.m */,
+				305049A21935F7890077ACC4 /* Supporting Files */,
+			);
+			path = UartAssistantTests;
+			sourceTree = "<group>";
+		};
+		305049A21935F7890077ACC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				305049A31935F7890077ACC4 /* UartAssistantTests-Info.plist */,
+				305049A41935F7890077ACC4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		305049791935F7880077ACC4 /* UartAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 305049AB1935F7890077ACC4 /* Build configuration list for PBXNativeTarget "UartAssistant" */;
+			buildPhases = (
+				305049761935F7880077ACC4 /* Sources */,
+				305049771935F7880077ACC4 /* Frameworks */,
+				305049781935F7880077ACC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UartAssistant;
+			productName = UartAssistant;
+			productReference = 3050497A1935F7880077ACC4 /* UartAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3050499A1935F7890077ACC4 /* UartAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 305049AE1935F7890077ACC4 /* Build configuration list for PBXNativeTarget "UartAssistantTests" */;
+			buildPhases = (
+				305049971935F7890077ACC4 /* Sources */,
+				305049981935F7890077ACC4 /* Frameworks */,
+				305049991935F7890077ACC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				305049A01935F7890077ACC4 /* PBXTargetDependency */,
+			);
+			name = UartAssistantTests;
+			productName = UartAssistantTests;
+			productReference = 3050499B1935F7890077ACC4 /* UartAssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		305049721935F7880077ACC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lijian;
+				TargetAttributes = {
+					3050499A1935F7890077ACC4 = {
+						TestTargetID = 305049791935F7880077ACC4;
+					};
+				};
+			};
+			buildConfigurationList = 305049751935F7880077ACC4 /* Build configuration list for PBXProject "UartAssistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 305049711935F7880077ACC4;
+			productRefGroup = 3050497B1935F7880077ACC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				305049791935F7880077ACC4 /* UartAssistant */,
+				3050499A1935F7890077ACC4 /* UartAssistantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		305049781935F7880077ACC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309167EF19A5FCC900982F2B /* uart.icns in Resources */,
+				305049881935F7880077ACC4 /* InfoPlist.strings in Resources */,
+				309167F119A5FCE100982F2B /* uart.icns in Resources */,
+				30C2E5FB19A2F3950056D612 /* MainWindow.xib in Resources */,
+				305049961935F7880077ACC4 /* Images.xcassets in Resources */,
+				3050498E1935F7880077ACC4 /* Credits.rtf in Resources */,
+				305049941935F7880077ACC4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305049991935F7890077ACC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305049A61935F7890077ACC4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		305049761935F7880077ACC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305049911935F7880077ACC4 /* AppDelegate.m in Sources */,
+				30BC0B5919A1EB08002D1FE8 /* Uart.m in Sources */,
+				30C2E5FA19A2F3950056D612 /* MainWindow.m in Sources */,
+				3050498A1935F7880077ACC4 /* main.m in Sources */,
+				309167EA19A5967800982F2B /* SelectPortButtonView.m in Sources */,
+				BE44CFFA48B1D612AC9F0018 /* CharChangeUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305049971935F7890077ACC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305049A81935F7890077ACC4 /* UartAssistantTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		305049A01935F7890077ACC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 305049791935F7880077ACC4 /* UartAssistant */;
+			targetProxy = 3050499F1935F7890077ACC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		305049861935F7880077ACC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				305049871935F7880077ACC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3050498C1935F7880077ACC4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3050498D1935F7880077ACC4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		305049921935F7880077ACC4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				305049931935F7880077ACC4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		305049A41935F7890077ACC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				305049A51935F7890077ACC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		305049A91935F7890077ACC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		305049AA1935F7890077ACC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		305049AC1935F7890077ACC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UartAssistant/UartAssistant-Prefix.pch";
+				INFOPLIST_FILE = "UartAssistant/UartAssistant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		305049AD1935F7890077ACC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UartAssistant/UartAssistant-Prefix.pch";
+				INFOPLIST_FILE = "UartAssistant/UartAssistant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		305049AF1935F7890077ACC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UartAssistant.app/Contents/MacOS/UartAssistant";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UartAssistant/UartAssistant-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UartAssistantTests/UartAssistantTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		305049B01935F7890077ACC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UartAssistant.app/Contents/MacOS/UartAssistant";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UartAssistant/UartAssistant-Prefix.pch";
+				INFOPLIST_FILE = "UartAssistantTests/UartAssistantTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		305049751935F7880077ACC4 /* Build configuration list for PBXProject "UartAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305049A91935F7890077ACC4 /* Debug */,
+				305049AA1935F7890077ACC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		305049AB1935F7890077ACC4 /* Build configuration list for PBXNativeTarget "UartAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305049AC1935F7890077ACC4 /* Debug */,
+				305049AD1935F7890077ACC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		305049AE1935F7890077ACC4 /* Build configuration list for PBXNativeTarget "UartAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305049AF1935F7890077ACC4 /* Debug */,
+				305049B01935F7890077ACC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 305049721935F7880077ACC4 /* Project object */;
+}
